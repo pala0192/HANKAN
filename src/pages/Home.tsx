@@ -8,6 +8,7 @@ interface Work {
   title: string;
   mainImage: string;
   artistId: string;
+  instagramLink?: string;
 }
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
   useEffect(() => {
     fetch('/data/works.json')
       .then(res => res.json())
-      .then(data => setFeaturedWorks(data.slice(0, 3))); // Take top 3
+      .then(data => setFeaturedWorks(data.slice(0, 16))); // Take top 16
   }, []);
 
   return (
