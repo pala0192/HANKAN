@@ -2,7 +2,7 @@
   {
     "id": "artist-1",
     "name": "김고운",
-    "introduction": "전통 도자의 아름다움을 현대적인 감각으로 재해석하여 일상 속에 스며드는 작품을 만듭니다. 자연의 형태와 색채에서 영감을 얻으며, 흙이 가진 본연의 따뜻한 물성을 살리는 작업에 집중합니다.",
+    "introduction": "전통 도자의 아름다움을 현대적인 감각으로 재해석하여 일상 속에 스며드는 작품을 만듭니다.",
     "mainPhoto": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?auto=format&fit=crop&w=800&h=800&q=80",
     "field": "도예",
     "location": "행리단길 1길 12, 고운도예",
@@ -12,7 +12,7 @@
   {
     "id": "artist-2",
     "name": "이류",
-    "introduction": "투명한 유리를 통해 빛과 공간의 관계를 탐구합니다. 유리의 차가운 성질 속에 담긴 뜨거운 작업 과정을 거쳐, 섬세하고 서정적인 형태를 구현합니다.",
+    "introduction": "투명한 유리를 통해 빛과 공간의 관계를 탐구합니다.",
     "mainPhoto": "https://images.unsplash.com/photo-1498418049363-2287d3a0af50?auto=format&fit=crop&w=800&h=800&q=80",
     "field": "유리공예",
     "location": "행리단길 2길 8, 류가죽공방",
@@ -22,11 +22,31 @@
   {
     "id": "artist-3",
     "name": "박나무",
-    "introduction": "나무가 지나온 시간을 존중하며, 그 고유한 결을 훼손하지 않는 디자인을 추구합니다. 버려지는 나무에 새로운 생명을 불어넣어 가치 있는 쓰임을 만듭니다.",
+    "introduction": "나무가 지나온 시간을 존중하며, 그 고유한 결을 훼손하지 않는 디자인을 추구합니다.",
     "mainPhoto": "https://images.unsplash.com/photo-1544605915-d419dd149d8a?auto=format&fit=crop&w=800&h=800&q=80",
     "field": "목공예",
     "location": "행리단길 3길 5, 나무의시간",
     "videoId": "",
     "snsLink": "https://instagram.com/example_namu"
+  },
+  {
+    "id": "artist-4",
+    "name": "최철",
+    "introduction": "금속이 가지는 차갑지만 강인한 매력을 생활 소품으로 풀어냅니다.",
+    "mainPhoto": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&h=800&q=80",
+    "field": "금속공예",
+    "location": "행리단길 4길 10, 금속작업실",
+    "videoId": "",
+    "snsLink": "https://instagram.com/example_cheol"
+  },
+  {
+    "id": "artist-5",
+    "name": "한땀",
+    "introduction": "한 땀 한 땀 정성을 다해 가죽과 패브릭으로 따뜻한 이야기를 엮습니다.",
+    "mainPhoto": "https://images.unsplash.com/photo-1453282716202-de94e528067c?auto=format&fit=crop&w=800&h=800&q=80",
+    "field": "가죽패브릭",
+    "location": "행리단길 5길 2, 한땀공방",
+    "videoId": "",
+    "snsLink": "https://instagram.com/example_땀"
   }
 ]
