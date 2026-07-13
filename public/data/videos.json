@@ -1,0 +1,18 @@
+[
+  {
+    "id": "video-1",
+    "title": "[아티스트 인터뷰] 흙과 함께 숨쉬는 시간, 김고운 작가",
+    "artistId": "artist-1",
+    "youtubeId": "dQw4w9WgXcQ",
+    "description": "고운도예 김고운 작가님의 작업 과정과 철학을 담은 인터뷰 영상입니다. 달항아리가 완성되는 전체 과정을 만나보세요.",
+    "order": 1
+  },
+  {
+    "id": "video-2",
+    "title": "[공방 스케치] 빛을 조각하는 사람, 이류 작가",
+    "artistId": "artist-2",
+    "youtubeId": "dQw4w9WgXcQ",
+    "description": "류가죽공방 이류 작가님의 뜨거운 유리 작업 현장을 스케치했습니다.",
+    "order": 2
+  }
+]

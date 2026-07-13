@@ -1,0 +1,52 @@
+[
+  {
+    "id": "work-1",
+    "title": "달항아리 (Moon Jar)",
+    "artistId": "artist-1",
+    "description": "조선 백자의 순백색과 둥근 형태를 현대적으로 재해석한 달항아리입니다. 흙이 가진 본연의 질감을 살려 따뜻한 분위기를 연출합니다.",
+    "material": "백자토, 투명유",
+    "location": "행리단길 1길 12, 고운도예",
+    "mainImage": "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&h=800&q=80",
+    "extraImages": [
+      "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=800&h=800&q=80"
+    ],
+    "videoId": "video-1",
+    "order": 1
+  },
+  {
+    "id": "work-2",
+    "title": "새벽의 숲 (Forest of Dawn)",
+    "artistId": "artist-2",
+    "description": "새벽녘 숲의 안개와 이슬을 모티브로 한 유리 공예 작품입니다. 빛의 각도에 따라 오묘하게 변하는 색채가 특징입니다.",
+    "material": "유리",
+    "location": "행리단길 2길 8, 류가죽공방",
+    "mainImage": "https://images.unsplash.com/photo-1582216503947-f33e08f02f9c?auto=format&fit=crop&w=800&h=800&q=80",
+    "extraImages": [],
+    "videoId": "video-2",
+    "order": 2
+  },
+  {
+    "id": "work-3",
+    "title": "결 (Texture)",
+    "artistId": "artist-3",
+    "description": "오랜 시간 다듬어진 나무의 결을 그대로 살려낸 우드 트레이입니다. 일상 속에 자연의 온기를 더합니다.",
+    "material": "월넛",
+    "location": "행리단길 3길 5, 나무의시간",
+    "mainImage": "https://images.unsplash.com/photo-1611486212557-88be5ff6f941?auto=format&fit=crop&w=800&h=800&q=80",
+    "extraImages": [],
+    "videoId": "",
+    "order": 3
+  },
+  {
+    "id": "work-4",
+    "title": "청자 다기 세트",
+    "artistId": "artist-1",
+    "description": "은은한 비색이 돋보이는 청자 다기 세트입니다. 차를 마시는 시간을 더욱 특별하게 만들어줍니다.",
+    "material": "청자토, 청자유",
+    "location": "행리단길 1길 12, 고운도예",
+    "mainImage": "https://images.unsplash.com/photo-1594631252845-29fc4cc8c2a1?auto=format&fit=crop&w=800&h=800&q=80",
+    "extraImages": [],
+    "videoId": "",
+    "order": 4
+  }
+]

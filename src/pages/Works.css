@@ -1,0 +1,11 @@
+.works-page {
+  min-height: 80vh;
+}
+
+.mb-xl {
+  margin-bottom: var(--space-xl);
+}
+
+.text-center {
+  text-align: center;
+}
