@@ -12,7 +12,7 @@ export default function Works() {
   const [works, setWorks] = useState<Work[]>([]);
 
   useEffect(() => {
-    fetch('/data/works.json')
+    fetch(import.meta.env.BASE_URL + 'data/works.json')
       .then(res => res.json())
       .then(data => setWorks(data));
   }, []);

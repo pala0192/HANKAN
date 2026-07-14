@@ -81,6 +81,12 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.home .artists-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
 .about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -110,10 +116,16 @@
   .home .works-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .home .artists-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
   .home .works-grid {
+    grid-template-columns: 1fr;
+  }
+  .home .artists-grid {
     grid-template-columns: 1fr;
   }
 }

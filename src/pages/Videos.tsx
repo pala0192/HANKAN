@@ -13,7 +13,7 @@ export default function Videos() {
   const [videos, setVideos] = useState<Video[]>([]);
 
   useEffect(() => {
-    fetch('/data/videos.json')
+    fetch(import.meta.env.BASE_URL + 'data/videos.json')
       .then(res => res.json())
       .then(data => setVideos(data));
   }, []);

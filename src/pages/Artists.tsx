@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import ArtistCard from '../components/ArtistCard';
+import './Artists.css';
 
 interface Artist {
   id: string;
@@ -12,7 +13,7 @@ export default function Artists() {
   const [artists, setArtists] = useState<Artist[]>([]);
 
   useEffect(() => {
-    fetch('/data/artists.json')
+    fetch(import.meta.env.BASE_URL + 'data/artists.json')
       .then(res => res.json())
       .then(data => setArtists(data));
   }, []);

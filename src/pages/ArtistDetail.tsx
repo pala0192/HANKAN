@@ -26,14 +26,14 @@ export default function ArtistDetail() {
   const [artistWorks, setArtistWorks] = useState<Work[]>([]);
 
   useEffect(() => {
-    fetch('/data/artists.json')
+    fetch(import.meta.env.BASE_URL + 'data/artists.json')
       .then(res => res.json())
       .then(data => {
         const found = data.find((a: Artist) => a.id === id);
         setArtist(found);
       });
 
-    fetch('/data/works.json')
+    fetch(import.meta.env.BASE_URL + 'data/works.json')
       .then(res => res.json())
       .then(data => {
         const works = data.filter((w: Work) => w.artistId === id);

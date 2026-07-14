@@ -27,7 +27,7 @@ export default function WorkDetail() {
 
   useEffect(() => {
     // Fetch work details
-    fetch('/data/works.json')
+    fetch(import.meta.env.BASE_URL + 'data/works.json')
       .then(res => res.json())
       .then(data => {
         const found = data.find((w: Work) => w.id === id);
@@ -35,7 +35,7 @@ export default function WorkDetail() {
         
         if (found) {
           // Fetch artist details
-          fetch('/data/artists.json')
+          fetch(import.meta.env.BASE_URL + 'data/artists.json')
             .then(res => res.json())
             .then(artistsData => {
               const artistFound = artistsData.find((a: Artist) => a.id === found.artistId);

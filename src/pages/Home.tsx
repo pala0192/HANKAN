@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import WorkCard from '../components/WorkCard';
+import ArtistCard from '../components/ArtistCard';
 import './Home.css';
 
 interface Work {
@@ -11,13 +12,25 @@ interface Work {
   instagramLink?: string;
 }
 
+interface Artist {
+  id: string;
+  name: string;
+  mainPhoto: string;
+  field: string;
+}
+
 export default function Home() {
   const [featuredWorks, setFeaturedWorks] = useState<Work[]>([]);
+  const [featuredArtists, setFeaturedArtists] = useState<Artist[]>([]);
 
   useEffect(() => {
-    fetch('/data/works.json')
+    fetch(import.meta.env.BASE_URL + 'data/works.json')
       .then(res => res.json())
       .then(data => setFeaturedWorks(data.slice(0, 16))); // Take top 16
+
+    fetch(import.meta.env.BASE_URL + 'data/artists.json')
+      .then(res => res.json())
+      .then(data => setFeaturedArtists(data.slice(0, 8))); // Take top 8
   }, []);
 
   return (
@@ -34,6 +47,21 @@ export default function Home() {
           <div className="hero-cta">
             <Link to="/works" className="btn btn-primary">작품 감상하기</Link>
             <Link to="/visit" className="btn btn-outline">공방 방문하기</Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="heading-2">Featured Artists</h2>
+            <Link to="/artists" className="link-more">View All Artists</Link>
+          </div>
+          
+          <div className="artists-grid">
+            {featuredArtists.map(artist => (
+              <ArtistCard key={artist.id} {...artist} />
+            ))}
           </div>
         </div>
       </section>
